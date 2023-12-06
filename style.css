@@ -1,0 +1,119 @@
+/* ------------ Navigation ----------- */
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Young Serif', serif;
+    font-size: 20px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+  }
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+  }
+
+  header nav ul li a:hover {
+    color: #eeb2db;
+    text-decoration: none;
+  }
+
+.logo {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    color: white;
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* ------------- Main Body ---------------- */
+
+body {
+    background-color: black;
+}
+
+.main-body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.portfolio-section {
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.shorts {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.video-player{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.video-section-title {
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.contact {
+    background-color: black;
+    border-radius: 25px;
+    font-family: 'Young Serif', serif;
+    font-size: 20px;
+    padding: 50px;
+    color: white;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact a:hover {
+    color: #eeb2db;
+}
